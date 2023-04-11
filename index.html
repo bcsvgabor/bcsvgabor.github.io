@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="/CSS/normalize.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+
+    <title>vargabor</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">
+        <a href="#">var<span>ga</span>bor</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#xp">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <header id="home">
+      <div class="tagline">
+        <h1>Portfolio page</h1>
+        <a href="#" class="btn btn-full">Resume</a>
+        <a href="#" class="btn">Contact</a>
+      </div>
+    </header>
+    <section class="experience" id="xp">
+      <h2>Experience</h2>
+      <div class="container">
+        <div>
+          <img src="/images/html5_logo.svg" alt="HTML5" />
+          <h3>HTML5</h3>
+          <p>
+            Semanthic markup, professional webdesign, accessibility, SEO
+            friendly structure
+          </p>
+        </div>
+        <div>
+          <img src="/images/css3_logo.svg" alt="CSS3" />
+          <h3>CSS3</h3>
+          <p>
+            Professional design, modern appearance, responsive style,
+            maintainable architecture, Flexbox, Grid
+          </p>
+        </div>
+        <div>
+          <img src="/images/javascript_logo.svg" alt="JavaScript" />
+          <h3>JavaScript</h3>
+          <p>
+            Modern 2020 JavaScript, clean code
+          </p>
+        </div>
+        <div>
+          <img src="/images/react_logo.svg" alt="React" />
+          <h3>React</h3>
+          <p>
+            Modern React, hooks, complex webapplications design
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-container">
+          <h3>Project_1</h3>
+          <a href="#">
+            <img
+              src="/images/project_logo.jpg"
+              alt="Project_1"
+              class="project_img"
+            />
+          </a>
+        </div>
+        <div class="project-container">
+          <h3>Project_2</h3>
+          <a href="#">
+            <img
+              src="/images/project_logo.jpg"
+              alt="Project_2"
+              class="project_img"
+            />
+          </a>
+        </div>
+        <div class="project-container">
+          <h3>Project_3</h3>
+          <a href="#">
+            <img
+              src="/images/project_logo.jpg"
+              alt="Project_3"
+              class="project_img"
+            />
+          </a>
+        </div>
+        <div class="project-container">
+          <h3>Project_4</h3>
+          <a href="#">
+            <img
+              src="/images/project_logo.jpg"
+              alt="Project_4"
+              class="project_img"
+            />
+          </a>
+        </div>
+        <div class="project-container">
+          <h3>Project_5</h3>
+          <a href="#">
+            <img
+              src="/images/project_logo.jpg"
+              alt="Project_5"
+              class="project_img"
+            />
+          </a>
+        </div>
+        <div class="project-container">
+          <h3>Project_6</h3>
+          <a href="#">
+            <img
+              src="/images/project_logo.jpg"
+              alt="Project_6"
+              class="project_img"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <div>
+        <form
+          action="https://formspree.io/f/mayvoobq"
+          class="contact-form"
+          method="POST"
+        >
+          <label>
+            Your name:
+            <input
+              type="name"
+              class="form_input"
+              placeholder="Type your name here"
+            />
+          </label>
+          <label>
+            Your email:
+            <input
+              type="email"
+              class="form_input"
+              name="email"
+              placeholder="example@exa.com"
+            />
+          </label>
+          <label>
+            Your message:
+            <textarea
+              class="form_input"
+              name="message"
+              placeholder="Type your message here"
+            ></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#xp">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="copyright">
+        Copyright &copy; 2022 Gabor Varga
+      </div>
+    </footer>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
