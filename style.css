@@ -127,6 +127,14 @@
     transition: background-color 0.15s, border 0.15s, color 0.15s,
       box-shadow 0.15s;
   }
+
+
+  .greenfoxtag {
+    color: rgb(61, 182, 122);
+    font-family: cursive;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+  }
   
   .logo a{
     text-decoration: none;
@@ -136,9 +144,10 @@
   }
   
   .logo a:hover {
-    background-color: var(--main-input-color);
-    border: 3px solid var(--main-input-color);  
-    transition: border 0.2s, background-color 0.2s;    
+    /*background-color: var(--main-input-color);*/
+    text-shadow: 2px 2px 6px rbga(106, 54, 158, 0.9);
+    /*border: 3px solid var(--main-input-color); */ 
+    transition: border 0.2s, background-color 0.2s, text-shadow 0.15s;    
     
   }
   .nav .logo a span{
@@ -189,7 +198,8 @@
         transform: translateY(8px);
       }
     }
-    **/
+    
+  *//
   
   
   /*********************/
@@ -203,11 +213,11 @@
   }
   
   .container div {
-  width: 270px;
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    /*width: 270px;*/
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   
@@ -235,6 +245,11 @@
   /*********************/
   /*** Contact style ***/
   /*********************/
+
+  h2 {
+    padding-bottom: 30px;
+  }
+
   .contact-form {
     width: 50%;
     margin: 0 auto;
